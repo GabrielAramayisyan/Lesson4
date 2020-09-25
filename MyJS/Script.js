@@ -9,8 +9,8 @@ alert(empty_text);
 
 // Task 2
 
-let range_number_1 = parseInt(prompt("Enter your first number"))
-let range_number_2 = parseInt(prompt("Enter your second number"))
+let range_number_1 = parseFloat(prompt("Enter your first number"));
+let range_number_2 = parseFloat(prompt("Enter your second number"));
 
 let max = range_number_1 > range_number_2 ? range_number_1 : range_number_2;
 let min = range_number_1 > range_number_2 ? range_number_2 : range_number_1;
